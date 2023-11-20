@@ -1,0 +1,114 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.interests, .languages {
+    margin-left: 20px;
+}
+
+.objective, .education, .projects, .achievements, .coding-profile {
+    margin-top: 20px;
+}
+  
+  /* Additional Styles for Responsiveness */
+  @media (max-width: 768px) {
+    body {
+      padding-top: 0;
+    }
+  }
+  /* Additional Styles for Project Members Section */
+.dropdown-menu .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style the Project Members Profile Section */
+  .dropdown-menu .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #0c17e4c4;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #007bff;
+  }
+  
+  /* Style the Footer */
+ 
+  .footer-class{
+    margin: 0px;
+    height: 100px;
+    width: 100vw;
+    background-color: #131a22;
+    display: flex;
+    color: white;
+    display: block;
+}
+.footer-first{
+    display: flex;
+    justify-content: center;
+}
+.footer-first a{
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    border: 1px solid white transparent;
+}
+.footer-link:hover {
+    text-decoration-line: underline;
+}
+.footer-copy{
+    text-align: center;
+}
+.owner{
+    color: #007185;
+    text-decoration: none;
+}
+.owner:hover{
+    text-decoration: underline;
+}
