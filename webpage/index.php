@@ -40,7 +40,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Nur Amin Molla</a>
-            <a class="dropdown-item" href="Versha/versha.html">Varsha Rani</a>
+            <a class="dropdown-item" href="#">Varsha Rani</a>
             <a class="dropdown-item" href="#">Manish Singh Rawat</a>
             <a class="dropdown-item" href="#">Vikash Bachety</a>
             <div class="dropdown-divider"></div>
