@@ -100,7 +100,7 @@ if(isset($_POST['submit'])){
     $refer=$_POST['refer'];
     $post2=$_POST['post2'];
     
-    $insertquery= " insert into jobregistration (name,degree,mobile,email,refer,post) values ('$name','$degree','$mobile','$email','$refer','$post2')";
+    $insertquery= " insert into JobRegistration (name,degree,mobile,email,refer,post) values ('$name','$degree','$mobile','$email','$refer','$post2')";
 
     $result=mysqli_query($connectionStatus, $insertquery);
 

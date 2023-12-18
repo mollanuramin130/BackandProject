@@ -69,7 +69,7 @@ include '../connectionFile/connection.php';
 $ids=$_GET['id'];
 
 
-$showquery= "select * from jobregistration where id={$ids}";
+$showquery= "select * from JobRegistration where id={$ids}";
 
 $showdata = mysqli_query($connectionStatus,$showquery);
 
@@ -86,9 +86,9 @@ if(isset($_POST['submit'])){
     $refer=$_POST['refer'];
     $post2=$_POST['post2'];
     
-    // $insertquery= " insert into jobregistration (name,degree,mobile,email,refer,post) values ('$name','$degree','$mobile','$email','$refer','$post2')";
+    // $insertquery= " insert into JobRegistration (name,degree,mobile,email,refer,post) values ('$name','$degree','$mobile','$email','$refer','$post2')";
 
-    $updatequery = "update jobregistration set id=$ids , name='$name', degree='$degree', mobile='$mobile', email='$email', refer='$refer' , post='$post2' where id=$idupdate";
+    $updatequery = "update JobRegistration set id=$ids , name='$name', degree='$degree', mobile='$mobile', email='$email', refer='$refer' , post='$post2' where id=$idupdate";
 
     $result=mysqli_query($connectionStatus, $updatequery);
 

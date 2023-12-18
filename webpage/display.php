@@ -91,7 +91,7 @@
         <tbody>
             <?php
             include '../connectionFile/connection.php';
-            $selectquery = " select * from jobregistration";
+            $selectquery = " select * from JobRegistration";
 
             $query = mysqli_query($connectionStatus, $selectquery);
 

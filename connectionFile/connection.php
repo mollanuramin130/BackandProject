@@ -2,7 +2,7 @@
  $username="root";
  $password= "";
  $server="localhost";
- $db="crudyoutube";
+ $db="NurMinorProjectDatabase";
 
 
  $connectionStatus=mysqli_connect($server, $username, $password, $db);
